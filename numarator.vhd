@@ -1,6 +1,7 @@
 ENTITY numarator IS
 	GENERIC( delay: TIME := 10 ns);
 	PORT(clock, reset, load: IN BIT;
+		minus2: IN BIT;
 		intrare_paralela: IN INTEGER;
 		iesire: OUT INTEGER);
 END numarator;
@@ -18,8 +19,14 @@ BEGIN
 	ELSIF clock='1' AND clock'EVENT and clock'LAST_VALUE='0' THEN
 		IF load='1' THEN
 			temp := intrare_paralela;
-		ELSE
-			temp := temp+1;
+		ELSE 
+			IF minus2='0' THEN
+				temp := temp-1;
+			ELSIF minus2='1' THEN
+				temp := temp-2;
+			ELSE 
+				temp := temp;
+			END IF;
 		END IF;
 	END IF;
 
