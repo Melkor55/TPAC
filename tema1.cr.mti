@@ -9,9 +9,9 @@ Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
 -- Loading package standard
 -- Compiling entity test
 -- Compiling architecture struct of test
-** Warning: [4] C:/Users/Melkor/Documents/Projects/VisualStudioCode/TPAC/test.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: [4] C:/Users/Melkor/Documents/Projects/VisualStudioCode/TPAC/test.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: [4] C:/Users/Melkor/Documents/Projects/VisualStudioCode/TPAC/test.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: [4] C:/Users/Melkor/Documents/Projects/VisualStudioCode/TPAC/test.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/Melkor/Documents/Projects/VisualStudioCode/TPAC/test.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/Melkor/Documents/Projects/VisualStudioCode/TPAC/test.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/Melkor/Documents/Projects/VisualStudioCode/TPAC/test.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/Melkor/Documents/Projects/VisualStudioCode/TPAC/test.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 
 } {} {}}
